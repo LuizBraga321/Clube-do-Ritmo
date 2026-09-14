@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="content-language" content="pt-br">
+  <meta name="author" content="Clube do Ritmo">
+  <meta name="keywords" content="música, ritmo, instrumentos, oficinas, clube, prática">
+  <meta name="description" content="Experimente uma inscrição. Conheça o Clube do Ritmo, um projeto fictício para experimentar música.">
+  <title>Inscrição | Clube do Ritmo</title>
+</head>
+<body>
+  <header>
+    <h1>Clube do Ritmo - Inscrição</h1>
+    <p>Experimente uma inscrição.</p>
+    <nav>
+      <p><a href="index.html">Início</a> | <a href="sobre.html">Sobre o clube</a> | <a href="instrumentos.html">Instrumentos</a> | <a href="ritmos.html">Ritmos</a><br>
+      <a href="oficinas.html">Oficinas</a> | <a href="agenda.html">Agenda</a> | <a href="galeria.html">Galeria</a> | <a href="audio.html">Áudio</a><br>
+      <a href="video.html">Vídeo</a> | <a href="inscricao.html">Inscrição</a> | <a href="duvidas.html">Dúvidas</a> | <a href="conclusao.html">Sobre o formulário</a></p>
+    </nav>
+    <hr>
+  </header>
+  <main>
+<section>
+  <h2>Formulário de demonstração</h2>
+  <article>
+    <h3>Monte sua participação na roda</h3>
+    <p>Este clube é fictício. <mark>Nenhuma inscrição será registrada.</mark> Use dados inventados para experimentar o formulário.</p>
+    <p>Os campos identificados como obrigatórios precisam ser preenchidos para concluir.</p>
+    <form method="get" action="conclusao.html">
+      <fieldset>
+        <legend>Participante de exemplo</legend>
+        <p><label>Nome fictício (obrigatório):<br>
+          <input type="text" name="nome" placeholder="Exemplo: Alex da Silva" required>
+        </label></p>
+        <p><label>E-mail fictício (obrigatório):<br>
+          <input type="email" name="email" placeholder="alex@example.com" required>
+        </label></p>
+        <p><label>Data desejada (obrigatória):<br>
+          <input type="date" name="data" required>
+        </label></p>
+      </fieldset>
+      <fieldset>
+        <legend>Preferências para a oficina</legend>
+        <p><label>Oficina:
+          <select name="oficina">
+            <option value="batidas">Primeiras batidas</option>
+            <option value="teclado">Melodias no teclado</option>
+            <option value="roda">Roda de instrumentos</option>
+          </select>
+        </label></p>
+        <p><label>Instrumento de interesse:<br>
+          <input type="text" name="instrumento" list="instrumentos" placeholder="Digite ou escolha um instrumento">
+        </label></p>
+        <datalist id="instrumentos">
+          <option value="Violão"></option>
+          <option value="Teclado"></option>
+          <option value="Pandeiro"></option>
+          <option value="Palmas"></option>
+        </datalist>
+        <p>Experiência musical:</p>
+        <p>
+          <label><input type="radio" name="experiencia" value="iniciante" checked> Estou começando</label><br>
+          <label><input type="radio" name="experiencia" value="pratica"> Já pratiquei um pouco</label><br>
+          <label><input type="radio" name="experiencia" value="grupo"> Já toquei em grupo</label>
+        </p>
+        <p>Atividades de interesse:</p>
+        <p>
+          <label><input type="checkbox" name="palmas" value="sim"> Ritmos com palmas</label><br>
+          <label><input type="checkbox" name="melodia" value="sim"> Melodias</label><br>
+          <label><input type="checkbox" name="conjunto" value="sim"> Prática em conjunto</label>
+        </p>
+        <p><label>Vontade de experimentar, de 0 a 10:<br>
+          <input type="range" name="interesse" min="0" max="10" value="5">
+        </label></p>
+        <p><label>Cor escolhida para o crachá:
+          <input type="color" name="cor" value="#e6a34a">
+        </label></p>
+      </fieldset>
+      <fieldset>
+        <legend>Conte um pouco mais</legend>
+        <p><label>Arquivo de exemplo (opcional, não será armazenado):<br>
+          <input type="file" name="arquivo">
+        </label></p>
+        <p><label>O que gostaria de experimentar?<br>
+          <textarea name="mensagem" rows="5" cols="35" placeholder="Conte sua ideia para a roda."></textarea>
+        </label></p>
+      </fieldset>
+      <p><input type="submit" value="Concluir demonstração"> <input type="reset" value="Limpar formulário"></p>
+    </form>
+  </article>
+</section>
+    <aside>
+      <h2>Para lembrar</h2>
+      <p>A página Sobre o formulário explica o que acontece ao concluir a demonstração.</p>
+    </aside>
+  </main>
+  <footer>
+    <hr>
+    <p>Clube do Ritmo | Projeto fictício de música | 2026<br>
+    <a href="index.html">Voltar ao início</a> | <a href="sobre.html">Sobre o clube</a></p>
+  </footer>
+</body>
+</html>

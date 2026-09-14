@@ -23,7 +23,7 @@ A versão atual possui **12 páginas HTML**, todas com menu completo, estrutura 
 | `duvidas.html` | Perguntas frequentes com respostas que abrem e fecham. |
 | `conclusao.html` | Explicação do formulário e destino após concluir o preenchimento. |
 
-As mídias incluem três imagens PNG, um áudio MP3 e um vídeo MP4. O áudio e o vídeo foram criados para o exercício musical e têm aproximadamente 10 segundos. Os arquivos ficam no próprio projeto e podem ser utilizados sem internet.
+As mídias incluem três imagens PNG, um áudio MP3 e um vídeo MP4. O áudio e o vídeo foram criados para o exercício musical e têm aproximadamente 10 segundos.
 
 ## Estrutura das pastas
 
